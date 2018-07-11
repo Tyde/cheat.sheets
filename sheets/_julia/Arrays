@@ -1,0 +1,11 @@
+# Arrays in Julia are 1-indexed
+# gives you the length of an array
+# If the array has multiple dimensions, it returns the length of the longest dimension.
+length(a)
+
+a = [1, 2, 3, 4, 5] # creates a simple one-dimensional array
+a = Array{Float64}()  # creates a 0-element Float64 array (one-dimensional)
+a = Array{Float64)(5) # creates a 5-element Float64 array (one-dimensional)
+
+a[3] = 5 # sets the third(!) value of the array to 5
+i = a[3] # read elements
